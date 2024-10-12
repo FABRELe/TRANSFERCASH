@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang=“fr”>
+<head>
+    <meta charset=“UTF-8”>
+    <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
+    <link rel=“stylesheet” href=“style.css”>
+    <title>EBAH ADONAÏ</title>
+</head>
+<body>
+    <div class=“container”>
+        <h1>Bienvenue sur EBAH ADONAÏ </h1>
+        <p>Montant disponible : 465 000€</p>
+        <button id=“withdraw-button”>Retirer</button>
+        <p id=“message”></p>
+    </div>
+    <script>
+        document.getElementById(‘withdraw-button’).addEventListener(‘click’, function() {
+            document.getElementById(‘message’).textContent = “VEUILLEZ INSÉRER LE CODE TRANSCASH AFIN D’OBTENIR L’ARGENT DANS VOTRE COMPTE BANCAIRE ”;
+        });
+    </script>
+</body>
+</html>
